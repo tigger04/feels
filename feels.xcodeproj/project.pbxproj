@@ -7,62 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BA491F52B9719EC00E6ADC3 /* feelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA491F42B9719EC00E6ADC3 /* feelsApp.swift */; };
-		6BA491F72B9719EC00E6ADC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA491F62B9719EC00E6ADC3 /* ContentView.swift */; };
-		6BA491F92B9719EE00E6ADC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA491F82B9719EE00E6ADC3 /* Assets.xcassets */; };
-		6BA491FD2B9719EE00E6ADC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA491FC2B9719EE00E6ADC3 /* Preview Assets.xcassets */; };
-		6BA492072B9719EE00E6ADC3 /* feelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA492062B9719EE00E6ADC3 /* feelsTests.swift */; };
-		6BA492112B9719EE00E6ADC3 /* feelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA492102B9719EE00E6ADC3 /* feelsUITests.swift */; };
-		6BA492132B9719EE00E6ADC3 /* feelsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA492122B9719EE00E6ADC3 /* feelsUITestsLaunchTests.swift */; };
+		6BD398042B9BB2AB00FB1ACC /* feelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD398032B9BB2AB00FB1ACC /* feelsApp.swift */; };
+		6BD398062B9BB2AB00FB1ACC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD398052B9BB2AB00FB1ACC /* ContentView.swift */; };
+		6BD398082B9BB2AD00FB1ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD398072B9BB2AD00FB1ACC /* Assets.xcassets */; };
+		6BD3980C2B9BB2AD00FB1ACC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3980B2B9BB2AD00FB1ACC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6BA492032B9719EE00E6ADC3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6BA491E92B9719EC00E6ADC3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6BA491F02B9719EC00E6ADC3;
-			remoteInfo = feels;
-		};
-		6BA4920D2B9719EE00E6ADC3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6BA491E92B9719EC00E6ADC3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6BA491F02B9719EC00E6ADC3;
-			remoteInfo = feels;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		6BA491F12B9719EC00E6ADC3 /* feels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feels.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BA491F42B9719EC00E6ADC3 /* feelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelsApp.swift; sourceTree = "<group>"; };
-		6BA491F62B9719EC00E6ADC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6BA491F82B9719EE00E6ADC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6BA491FA2B9719EE00E6ADC3 /* feels.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = feels.entitlements; sourceTree = "<group>"; };
-		6BA491FC2B9719EE00E6ADC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6BA492022B9719EE00E6ADC3 /* feelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = feelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BA492062B9719EE00E6ADC3 /* feelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelsTests.swift; sourceTree = "<group>"; };
-		6BA4920C2B9719EE00E6ADC3 /* feelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = feelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BA492102B9719EE00E6ADC3 /* feelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelsUITests.swift; sourceTree = "<group>"; };
-		6BA492122B9719EE00E6ADC3 /* feelsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6BD398002B9BB2AB00FB1ACC /* feels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD398032B9BB2AB00FB1ACC /* feelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelsApp.swift; sourceTree = "<group>"; };
+		6BD398052B9BB2AB00FB1ACC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6BD398072B9BB2AD00FB1ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BD398092B9BB2AD00FB1ACC /* feels.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = feels.entitlements; sourceTree = "<group>"; };
+		6BD3980B2B9BB2AD00FB1ACC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6BA491EE2B9719EC00E6ADC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BA491FF2B9719EE00E6ADC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BA492092B9719EE00E6ADC3 /* Frameworks */ = {
+		6BD397FD2B9BB2AB00FB1ACC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,73 +33,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6BA491E82B9719EC00E6ADC3 = {
+		6BD397F72B9BB2AB00FB1ACC = {
 			isa = PBXGroup;
 			children = (
-				6BA491F32B9719EC00E6ADC3 /* feels */,
-				6BA492052B9719EE00E6ADC3 /* feelsTests */,
-				6BA4920F2B9719EE00E6ADC3 /* feelsUITests */,
-				6BA491F22B9719EC00E6ADC3 /* Products */,
+				6BD398022B9BB2AB00FB1ACC /* feels */,
+				6BD398012B9BB2AB00FB1ACC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6BA491F22B9719EC00E6ADC3 /* Products */ = {
+		6BD398012B9BB2AB00FB1ACC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BA491F12B9719EC00E6ADC3 /* feels.app */,
-				6BA492022B9719EE00E6ADC3 /* feelsTests.xctest */,
-				6BA4920C2B9719EE00E6ADC3 /* feelsUITests.xctest */,
+				6BD398002B9BB2AB00FB1ACC /* feels.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6BA491F32B9719EC00E6ADC3 /* feels */ = {
+		6BD398022B9BB2AB00FB1ACC /* feels */ = {
 			isa = PBXGroup;
 			children = (
-				6BA491F42B9719EC00E6ADC3 /* feelsApp.swift */,
-				6BA491F62B9719EC00E6ADC3 /* ContentView.swift */,
-				6BA491F82B9719EE00E6ADC3 /* Assets.xcassets */,
-				6BA491FA2B9719EE00E6ADC3 /* feels.entitlements */,
-				6BA491FB2B9719EE00E6ADC3 /* Preview Content */,
+				6BD398032B9BB2AB00FB1ACC /* feelsApp.swift */,
+				6BD398052B9BB2AB00FB1ACC /* ContentView.swift */,
+				6BD398072B9BB2AD00FB1ACC /* Assets.xcassets */,
+				6BD398092B9BB2AD00FB1ACC /* feels.entitlements */,
+				6BD3980A2B9BB2AD00FB1ACC /* Preview Content */,
 			);
 			path = feels;
 			sourceTree = "<group>";
 		};
-		6BA491FB2B9719EE00E6ADC3 /* Preview Content */ = {
+		6BD3980A2B9BB2AD00FB1ACC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6BA491FC2B9719EE00E6ADC3 /* Preview Assets.xcassets */,
+				6BD3980B2B9BB2AD00FB1ACC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6BA492052B9719EE00E6ADC3 /* feelsTests */ = {
-			isa = PBXGroup;
-			children = (
-				6BA492062B9719EE00E6ADC3 /* feelsTests.swift */,
-			);
-			path = feelsTests;
-			sourceTree = "<group>";
-		};
-		6BA4920F2B9719EE00E6ADC3 /* feelsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6BA492102B9719EE00E6ADC3 /* feelsUITests.swift */,
-				6BA492122B9719EE00E6ADC3 /* feelsUITestsLaunchTests.swift */,
-			);
-			path = feelsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BA491F02B9719EC00E6ADC3 /* feels */ = {
+		6BD397FF2B9BB2AB00FB1ACC /* feels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BA492162B9719EE00E6ADC3 /* Build configuration list for PBXNativeTarget "feels" */;
+			buildConfigurationList = 6BD3980F2B9BB2AD00FB1ACC /* Build configuration list for PBXNativeTarget "feels" */;
 			buildPhases = (
-				6BA491ED2B9719EC00E6ADC3 /* Sources */,
-				6BA491EE2B9719EC00E6ADC3 /* Frameworks */,
-				6BA491EF2B9719EC00E6ADC3 /* Resources */,
+				6BD397FC2B9BB2AB00FB1ACC /* Sources */,
+				6BD397FD2B9BB2AB00FB1ACC /* Frameworks */,
+				6BD397FE2B9BB2AB00FB1ACC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,69 +86,25 @@
 			);
 			name = feels;
 			productName = feels;
-			productReference = 6BA491F12B9719EC00E6ADC3 /* feels.app */;
+			productReference = 6BD398002B9BB2AB00FB1ACC /* feels.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6BA492012B9719EE00E6ADC3 /* feelsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6BA492192B9719EE00E6ADC3 /* Build configuration list for PBXNativeTarget "feelsTests" */;
-			buildPhases = (
-				6BA491FE2B9719EE00E6ADC3 /* Sources */,
-				6BA491FF2B9719EE00E6ADC3 /* Frameworks */,
-				6BA492002B9719EE00E6ADC3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6BA492042B9719EE00E6ADC3 /* PBXTargetDependency */,
-			);
-			name = feelsTests;
-			productName = feelsTests;
-			productReference = 6BA492022B9719EE00E6ADC3 /* feelsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6BA4920B2B9719EE00E6ADC3 /* feelsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6BA4921C2B9719EE00E6ADC3 /* Build configuration list for PBXNativeTarget "feelsUITests" */;
-			buildPhases = (
-				6BA492082B9719EE00E6ADC3 /* Sources */,
-				6BA492092B9719EE00E6ADC3 /* Frameworks */,
-				6BA4920A2B9719EE00E6ADC3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6BA4920E2B9719EE00E6ADC3 /* PBXTargetDependency */,
-			);
-			name = feelsUITests;
-			productName = feelsUITests;
-			productReference = 6BA4920C2B9719EE00E6ADC3 /* feelsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6BA491E92B9719EC00E6ADC3 /* Project object */ = {
+		6BD397F82B9BB2AB00FB1ACC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					6BA491F02B9719EC00E6ADC3 = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					6BA492012B9719EE00E6ADC3 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 6BA491F02B9719EC00E6ADC3;
-					};
-					6BA4920B2B9719EE00E6ADC3 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 6BA491F02B9719EC00E6ADC3;
+					6BD397FF2B9BB2AB00FB1ACC = {
+						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 6BA491EC2B9719EC00E6ADC3 /* Build configuration list for PBXProject "feels" */;
+			buildConfigurationList = 6BD397FB2B9BB2AB00FB1ACC /* Build configuration list for PBXProject "feels" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,88 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 6BA491E82B9719EC00E6ADC3;
-			productRefGroup = 6BA491F22B9719EC00E6ADC3 /* Products */;
+			mainGroup = 6BD397F72B9BB2AB00FB1ACC;
+			productRefGroup = 6BD398012B9BB2AB00FB1ACC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BA491F02B9719EC00E6ADC3 /* feels */,
-				6BA492012B9719EE00E6ADC3 /* feelsTests */,
-				6BA4920B2B9719EE00E6ADC3 /* feelsUITests */,
+				6BD397FF2B9BB2AB00FB1ACC /* feels */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6BA491EF2B9719EC00E6ADC3 /* Resources */ = {
+		6BD397FE2B9BB2AB00FB1ACC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BA491FD2B9719EE00E6ADC3 /* Preview Assets.xcassets in Resources */,
-				6BA491F92B9719EE00E6ADC3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BA492002B9719EE00E6ADC3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BA4920A2B9719EE00E6ADC3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6BD3980C2B9BB2AD00FB1ACC /* Preview Assets.xcassets in Resources */,
+				6BD398082B9BB2AD00FB1ACC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6BA491ED2B9719EC00E6ADC3 /* Sources */ = {
+		6BD397FC2B9BB2AB00FB1ACC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BA491F72B9719EC00E6ADC3 /* ContentView.swift in Sources */,
-				6BA491F52B9719EC00E6ADC3 /* feelsApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BA491FE2B9719EE00E6ADC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BA492072B9719EE00E6ADC3 /* feelsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BA492082B9719EE00E6ADC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BA492132B9719EE00E6ADC3 /* feelsUITestsLaunchTests.swift in Sources */,
-				6BA492112B9719EE00E6ADC3 /* feelsUITests.swift in Sources */,
+				6BD398062B9BB2AB00FB1ACC /* ContentView.swift in Sources */,
+				6BD398042B9BB2AB00FB1ACC /* feelsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6BA492042B9719EE00E6ADC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6BA491F02B9719EC00E6ADC3 /* feels */;
-			targetProxy = 6BA492032B9719EE00E6ADC3 /* PBXContainerItemProxy */;
-		};
-		6BA4920E2B9719EE00E6ADC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6BA491F02B9719EC00E6ADC3 /* feels */;
-			targetProxy = 6BA4920D2B9719EE00E6ADC3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		6BA492142B9719EE00E6ADC3 /* Debug */ = {
+		6BD3980D2B9BB2AD00FB1ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		6BA492152B9719EE00E6ADC3 /* Release */ = {
+		6BD3980E2B9BB2AD00FB1ACC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,7 +261,7 @@
 			};
 			name = Release;
 		};
-		6BA492172B9719EE00E6ADC3 /* Debug */ = {
+		6BD398102B9BB2AD00FB1ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -434,10 +284,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.tigger.feels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		6BA492182B9719EE00E6ADC3 /* Release */ = {
+		6BD398112B9BB2AD00FB1ACC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -472,10 +322,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.tigger.feels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,139 +334,31 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		6BA4921A2B9719EE00E6ADC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GLVW6FZ3DS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tigger.feelsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/feels.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/feels";
-			};
-			name = Debug;
-		};
-		6BA4921B2B9719EE00E6ADC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GLVW6FZ3DS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tigger.feelsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/feels.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/feels";
-			};
-			name = Release;
-		};
-		6BA4921D2B9719EE00E6ADC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GLVW6FZ3DS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tigger.feelsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = feels;
-			};
-			name = Debug;
-		};
-		6BA4921E2B9719EE00E6ADC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GLVW6FZ3DS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tigger.feelsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = feels;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BA491EC2B9719EC00E6ADC3 /* Build configuration list for PBXProject "feels" */ = {
+		6BD397FB2B9BB2AB00FB1ACC /* Build configuration list for PBXProject "feels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BA492142B9719EE00E6ADC3 /* Debug */,
-				6BA492152B9719EE00E6ADC3 /* Release */,
+				6BD3980D2B9BB2AD00FB1ACC /* Debug */,
+				6BD3980E2B9BB2AD00FB1ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BA492162B9719EE00E6ADC3 /* Build configuration list for PBXNativeTarget "feels" */ = {
+		6BD3980F2B9BB2AD00FB1ACC /* Build configuration list for PBXNativeTarget "feels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BA492172B9719EE00E6ADC3 /* Debug */,
-				6BA492182B9719EE00E6ADC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6BA492192B9719EE00E6ADC3 /* Build configuration list for PBXNativeTarget "feelsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BA4921A2B9719EE00E6ADC3 /* Debug */,
-				6BA4921B2B9719EE00E6ADC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6BA4921C2B9719EE00E6ADC3 /* Build configuration list for PBXNativeTarget "feelsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BA4921D2B9719EE00E6ADC3 /* Debug */,
-				6BA4921E2B9719EE00E6ADC3 /* Release */,
+				6BD398102B9BB2AD00FB1ACC /* Debug */,
+				6BD398112B9BB2AD00FB1ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6BA491E92B9719EC00E6ADC3 /* Project object */;
+	rootObject = 6BD397F82B9BB2AB00FB1ACC /* Project object */;
 }
